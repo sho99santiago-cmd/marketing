@@ -12,7 +12,8 @@
     --black: #0A0A0A;
     --black-deep: #050505;
     --blanche: #FEFFFC;
-    --banana: #D0FF00;
+    --klein: #002FA7;
+    --klein-deep: #001A66;
     --plum: #8116E0;
     --plum-deep: #5A0AA8;
     --grey-1: #1A1A1A;
@@ -59,7 +60,7 @@
     mix-blend-mode: overlay;
   }
 
-  ::selection { background: var(--banana); color: var(--black); }
+  ::selection { background: var(--klein); color: var(--blanche); }
 
   /* ==================== NAV ==================== */
   .nav {
@@ -85,9 +86,9 @@
   }
   .nav-logo-dot {
     width: 10px; height: 10px;
-    background: var(--banana);
+    background: var(--klein);
     border-radius: 50%;
-    box-shadow: 0 0 20px var(--banana);
+    box-shadow: 0 0 20px var(--klein);
     animation: pulse 2s ease-in-out infinite;
   }
   @keyframes pulse {
@@ -109,7 +110,7 @@
     text-decoration: none;
     transition: color 0.3s;
   }
-  .nav-meta a:hover { color: var(--banana); }
+  .nav-meta a:hover { color: var(--klein); }
   .nav-cta {
     padding: 10px 18px;
     border: 1px solid var(--blanche);
@@ -117,9 +118,9 @@
     transition: all 0.3s;
   }
   .nav-cta:hover {
-    background: var(--banana);
-    color: var(--black) !important;
-    border-color: var(--banana);
+    background: var(--klein);
+    color: var(--blanche) !important;
+    border-color: var(--klein);
   }
 
   /* ==================== HERO ==================== */
@@ -146,10 +147,10 @@
     top: -100px; right: -150px;
     animation: float1 18s ease-in-out infinite;
   }
-  .hero-bg-orb.banana {
-    background: var(--banana);
+  .hero-bg-orb.klein {
+    background: var(--klein);
     bottom: -200px; left: -100px;
-    opacity: 0.15;
+    opacity: 0.45;
     animation: float2 22s ease-in-out infinite;
   }
   @keyframes float1 {
@@ -197,8 +198,8 @@
     color: var(--blanche);
     text-transform: lowercase;
   }
-  .hero-title h1 .accent-banana {
-    color: var(--banana);
+  .hero-title h1 .accent-klein {
+    color: var(--klein);
     font-style: normal;
   }
   .hero-title h1 .italic {
@@ -311,7 +312,7 @@
   }
   .hero-lede em {
     font-style: italic;
-    color: var(--banana);
+    color: var(--klein);
   }
   .hero-scroll {
     justify-self: end;
@@ -360,7 +361,7 @@
   }
   .ticker-item::after {
     content: '✦';
-    color: var(--banana);
+    color: var(--klein);
     font-size: 16px;
   }
   @keyframes scroll {
@@ -388,7 +389,7 @@
   .section-label::before {
     content: '';
     width: 30px; height: 1px;
-    background: var(--banana);
+    background: var(--klein);
   }
   .section-label.violet::before { background: var(--plum); }
 
@@ -411,7 +412,7 @@
     font-family: 'Instrument Serif', serif;
     font-style: italic;
     font-weight: 400;
-    color: var(--banana);
+    color: var(--klein);
   }
   .diagnostic-right p {
     font-size: 19px;
@@ -422,7 +423,7 @@
   }
   .diagnostic-right p:last-child { margin-bottom: 0; }
   .diagnostic-right strong {
-    color: var(--banana);
+    color: var(--klein);
     font-weight: 500;
   }
   .diagnostic-right .pull {
@@ -458,7 +459,7 @@
     text-transform: lowercase;
   }
   .method-header h2 .accent {
-    color: var(--banana);
+    color: var(--klein);
   }
   .method-header-right p {
     font-family: 'Instrument Serif', serif;
@@ -483,7 +484,7 @@
   .method-number {
     font-family: 'Archivo Black', sans-serif;
     font-size: 14px;
-    color: var(--banana);
+    color: var(--klein);
     margin-bottom: 24px;
     letter-spacing: 0.1em;
   }
@@ -582,7 +583,7 @@
     font-size: 38px;
     letter-spacing: -0.04em;
     line-height: 1;
-    color: var(--banana);
+    color: var(--klein);
     display: block;
     margin-bottom: 6px;
   }
@@ -614,7 +615,7 @@
     font-family: 'Instrument Serif', serif;
     font-style: italic;
     font-weight: 400;
-    color: var(--banana);
+    color: var(--klein);
   }
   .industries-grid {
     display: flex;
@@ -633,14 +634,14 @@
     cursor: default;
   }
   .industry-tag:hover {
-    border-color: var(--banana);
-    color: var(--banana);
+    border-color: var(--klein);
+    color: var(--klein);
     transform: translateY(-2px);
   }
   .industry-tag.featured {
-    background: var(--banana);
-    color: var(--black);
-    border-color: var(--banana);
+    background: var(--klein);
+    color: var(--blanche);
+    border-color: var(--klein);
     font-weight: 500;
   }
   .industry-tag.featured:hover {
@@ -689,8 +690,8 @@
     flex-shrink: 0;
     width: 24px; height: 24px;
     border-radius: 50%;
-    background: var(--banana);
-    color: var(--black);
+    background: var(--klein);
+    color: var(--blanche);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -701,8 +702,8 @@
 
   /* ==================== TEAM ==================== */
   .team {
-    background: var(--banana);
-    color: var(--black);
+    background: var(--klein);
+    color: var(--blanche);
     padding: 120px 40px;
     border-top: 1px solid var(--grey-2);
     border-bottom: 1px solid var(--grey-2);
@@ -718,7 +719,7 @@
     border-radius: 50%;
     top: -150px; right: -100px;
     filter: blur(120px);
-    opacity: 0.4;
+    opacity: 0.55;
   }
   .team-content { position: relative; z-index: 2; }
   .team-label {
@@ -726,7 +727,7 @@
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    color: var(--black);
+    color: var(--blanche);
     opacity: 0.7;
     margin-bottom: 24px;
     display: flex;
@@ -736,14 +737,14 @@
   .team-label::before {
     content: '';
     width: 30px; height: 1px;
-    background: var(--black);
+    background: var(--blanche);
   }
   .team h2 {
     font-family: 'Archivo Black', sans-serif;
     font-size: clamp(40px, 6vw, 96px);
     line-height: 0.9;
     letter-spacing: -0.04em;
-    color: var(--black);
+    color: var(--blanche);
     margin-bottom: 80px;
     max-width: 1100px;
     text-transform: lowercase;
@@ -757,11 +758,11 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 0;
-    border-top: 1px solid var(--black);
+    border-top: 1px solid rgba(254, 255, 252, 0.25);
   }
   .team-stat {
     padding: 40px 30px 40px 0;
-    border-right: 1px solid var(--black);
+    border-right: 1px solid rgba(254, 255, 252, 0.25);
   }
   .team-stat:last-child { border-right: none; padding-right: 0; }
   .team-stat:not(:first-child) { padding-left: 30px; }
@@ -770,7 +771,7 @@
     font-size: clamp(48px, 5vw, 72px);
     line-height: 1;
     letter-spacing: -0.04em;
-    color: var(--black);
+    color: var(--blanche);
     display: block;
     margin-bottom: 12px;
   }
@@ -779,7 +780,7 @@
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.15em;
-    color: var(--black);
+    color: var(--blanche);
     opacity: 0.75;
   }
 
@@ -821,7 +822,7 @@
     font-family: 'Instrument Serif', serif;
     font-style: italic;
     font-weight: 400;
-    color: var(--banana);
+    color: var(--klein);
   }
   .cta-content p {
     font-family: 'Instrument Serif', serif;
@@ -836,8 +837,8 @@
     align-items: center;
     gap: 16px;
     padding: 24px 40px;
-    background: var(--banana);
-    color: var(--black);
+    background: var(--klein);
+    color: var(--blanche);
     text-decoration: none;
     font-family: 'Archivo Black', sans-serif;
     font-size: 18px;
@@ -884,7 +885,7 @@
     margin-bottom: 16px;
     text-transform: lowercase;
   }
-  .footer-brand .accent { color: var(--banana); }
+  .footer-brand .accent { color: var(--klein); }
   .footer-tagline {
     font-family: 'Instrument Serif', serif;
     font-style: italic;
@@ -908,7 +909,7 @@
     margin-bottom: 10px;
     transition: color 0.3s;
   }
-  .footer-col a:hover { color: var(--banana); }
+  .footer-col a:hover { color: var(--klein); }
   .footer-bottom {
     border-top: 1px solid var(--grey-2);
     padding-top: 30px;
@@ -984,12 +985,12 @@
 <!-- ==================== HERO ==================== -->
 <section class="hero">
   <div class="hero-bg-orb violet"></div>
-  <div class="hero-bg-orb banana"></div>
+  <div class="hero-bg-orb klein"></div>
 
   <div class="hero-title">
     <h1>
       <span class="scramble" data-text="ingeniería">ingeniería</span><br>
-      <span class="italic scramble" data-text="de">de</span> <span class="accent-banana scramble" data-text="demanda.">demanda.</span><br>
+      <span class="italic scramble" data-text="de">de</span> <span class="accent-klein scramble" data-text="demanda.">demanda.</span><br>
       <span class="accent-violet scramble" data-text="no">no</span> <span class="italic scramble" data-text="marketing.">marketing.</span>
     </h1>
   </div>
@@ -1369,11 +1370,13 @@
   const styleDud = document.createElement('style');
   styleDud.textContent = `
     .dud {
-      color: var(--banana);
-      opacity: 0.85;
+      color: var(--blanche);
+      opacity: 0.55;
+      text-shadow: 0 0 8px var(--klein);
     }
     .scramble.scrambling .dud {
-      color: var(--banana);
+      color: var(--blanche);
+      opacity: 0.55;
     }
   `;
   document.head.appendChild(styleDud);
